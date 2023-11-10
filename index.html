@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <script defer src="index.js"></script>
+    <!-- Swiper JS -->
+  <script  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link
+      rel="shortcut icon"
+      type="x-icon"
+      href="logob.png"
+    />
+    <title>College Quest</title>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="popup.css"
+    />
+  </head>
+  <body>
+    
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img
+            id="logoimg"
+            src="logob.png"
+            alt=""
+          />
+        </div>
+        <h1>College Quest</h1>
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="loginpage/login.html">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h2>Find Your Ideal College</h2>
+        <p>Discover colleges that match your preferences and goals.</p>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter college name or location"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+    <section id="mainswiper-mobile">
+      
+       <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-001.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-002.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.magloft.com/github/swiper/images/page-005.jpg" />
+      </div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-scrollbar"></div>
+    
+  </div>
+  
+    </section>
+    
+    
+  
+    
+    <section class="featured-colleges">
+      <div class="container">
+        <h2>Featured Colleges</h2>
+        <div class="college-card">
+           <div class="bg-img"></div>
+           <div class="flexdiv">
+            
+            <img
+            src="st.johnimage.webp"
+            alt="College 1"
+          />
+          <h3>St. John College of Engineering and Management - [SJCEM]</h3>
+           </div>
+           <p class="course">B.E/B.Tech <br>(8 courses)</p>
+         
+           <div class="flexdiv2">
+           
+          
+          <p class="location">Location:  Palghar, Maharashtra</p>
+          <a href="learnmore.html">Learn More</a>
+          <div class="rate rate-pos">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+            </div>
+        </div>
+        <div class="college-card">
+            <div class="bg-img"></div>
+            <div class="flexdiv">
+             
+             <img
+             src="thakurimg.webp"
+             alt="College 2"
+           />
+           <h3>Thakur College of Engineering and Technology [TCET]</h3>
+            </div>
+            <p class="course">B.E/B.Tech <br>(18 courses)</p>
+          
+            <div class="flexdiv2">
+            
+           
+           <p class="location">Location:  Mumbai, Maharashtra</p>
+           <a href="learnmore2.html">Learn More</a>
+           <div class="rate rate-pos">
+             <input type="radio" id="star5" name="rate" value="5" />
+             <label for="star5" title="text">5 stars</label>
+             <input type="radio" id="star4" name="rate" value="4" />
+             <label for="star4" title="text">4 stars</label>
+             <input type="radio" id="star3" name="rate" value="3" />
+             <label for="star3" title="text">3 stars</label>
+             <input type="radio" id="star2" name="rate" value="2" />
+             <label for="star2" title="text">2 stars</label>
+             <input type="radio" id="star1" name="rate" value="1" />
+             <label for="star1" title="text">1 star</label>
+           </div>
+             </div>
+         </div>
+         <div class="college-card">
+            <div class="bg-img"></div>
+            <div class="flexdiv">
+             
+             <img
+             src="vartakimg.webp"
+             alt="College 3"
+           />
+           <h3>Vidyavardhini's College of Engineering and Technology - [VCET]</h3>
+            </div>
+            <p class="course">B.E/B.Tech <br>(12 courses)</p>
+          
+            <div class="flexdiv2">
+            
+           
+           <p class="location">Location:  Vasai, Maharashtra</p>
+           <a href="learnmore3.html">Learn More</a>
+           <div class="rate rate-pos">
+             <input type="radio" id="star5" name="rate" value="5" />
+             <label for="star5" title="text">5 stars</label>
+             <input type="radio" id="star4" name="rate" value="4" />
+             <label for="star4" title="text">4 stars</label>
+             <input type="radio" id="star3" name="rate" value="3" />
+             <label for="star3" title="text">3 stars</label>
+             <input type="radio" id="star2" name="rate" value="2" />
+             <label for="star2" title="text">2 stars</label>
+             <input type="radio" id="star1" name="rate" value="1" />
+             <label for="star1" title="text">1 star</label>
+           </div>
+             </div>
+         </div>
+      </div>
+    </section>
+    <footer>
+      
+    
+  </body>
+</html>
