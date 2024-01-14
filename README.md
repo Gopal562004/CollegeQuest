@@ -28,4 +28,4 @@ To get started with CollegeQuest, follow these simple steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/collegequest.git
+   git clone https://github.com/Gopal562004/CollegeQuest.git
